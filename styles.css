@@ -621,11 +621,6 @@
     transition: 0.3 ease;
 }
 
-.social__icon__link {
-    color: #131313;
-    font-size: 24px;
-}
-
 .social__media {
     max-width: 1000px;
     width: 100%;
@@ -638,14 +633,6 @@
     width: 90%;
     max-width: 1000px;
     margin: 40px auto 0 auto;
-}
-
-.social__icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100px;
-    margin: 40px;
 }
 
 .website__rights {
