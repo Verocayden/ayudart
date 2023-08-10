@@ -1,1 +1,0 @@
-# AyudART (Landing Page)
