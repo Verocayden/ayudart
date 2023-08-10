@@ -248,7 +248,7 @@
 .hero .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 75vh;
+    height: 70vh;
     padding: 3rem calc((100vw - 1300px) / 2);
 }
 
@@ -423,6 +423,12 @@
 
     .hero .main__container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-height: 650px) {
+    .hero .main__container {
+        height: 75vh;
     }
 }
 
