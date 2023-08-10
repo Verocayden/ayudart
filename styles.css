@@ -242,12 +242,13 @@
     grid-template-columns: 1fr 1fr;
     height: 100vh;
     padding: 3rem calc((100vw - 1300px) / 2);
+    margin-bottom: 3rem;
 }
 
 .hero .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 70vh;
+    height: 75vh;
     padding: 3rem calc((100vw - 1300px) / 2);
 }
 
@@ -261,12 +262,12 @@
 }
 
 .main__content h1 {
-    margin-bottom: 2rem;
     font-size: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .main__content h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -423,7 +424,12 @@
     .hero .main__container {
         grid-template-columns: 1fr;
     }
-    
+}
+
+@media screen and (max-height: 500px) {
+    .hero {
+        height: 120vh;
+    }
 }
 
 /* value-prop Section */
