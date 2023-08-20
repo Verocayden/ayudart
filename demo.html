@@ -23,24 +23,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300;500;600;700&family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
 
+    
 </head>
 <body>
     
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="index.html#home" id="navbar__logo">AyudART</a>
+            <a href="index.html#home" id="navbar__logo">
+                AyudART
+            </a>
+            
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <ul class="navbar__menu">
-                <li class="navbar__item"><a href="index.html#home" class="navbar__links" id="home-page">Accueil</a></li>
-                <li class="navbar__item"><a href="index.html#about" class="navbar__links" id="about-page">À propos</a></li>
-                <li class="navbar__item"><a href="index.html#services" class="navbar__links" id="about-page">Services</a></li>
-                <li class="navbar__item"><a href="index.html#contact" class="navbar__links" id="about-page">Contact</a></li>
+                <li class="navbar__item"><a href="index.html#home" class="navbar__links lang" id="home-page" key="nav-home">Accueil</a></li>
+                <li class="navbar__item"><a href="index.html#about" class="navbar__links lang" id="about-page" key="nav-about">À propos</a></li>
+                <li class="navbar__item"><a href="index.html#services" class="navbar__links lang" id="services-page" key="nav-services">Services</a></li>
+                <li class="navbar__item"><a href="index.html#contact" class="navbar__links lang" id="contact-page" key="nav-contact">Contact</a></li>
                 <li class="navbar__btn">
-                    <a href="demo.html" class="button">Essai gratuit</a>
+                    <a href="demo.html" class="button lang" key="nav-demo">Essai gratuit</a>
+                </li>
+                <li>
+                    <div class="translate__container">
+                        <button class="translate" id="en">EN</button>
+                        <button class="translate" id="fr">FR</button>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -52,35 +62,37 @@
                 <img src="images/girafe_mercure.jpg" alt="illustration" class="main__section__image">
              </div> 
             <div class="main__content">
-                <h1>Page en construction</h1>
-                <p>AyudART est présentement en développement.</p>
-                <p>Si vous souhaitez être parmi les premiers à essayer AyudART en avant-première, remplissez le formulaire dans le lien suivant !</p>
-                <button class="cta__button"><a href="https://forms.gle/9cWS9zzdGqhwvX4j7" target="_blank">Soyez parmi les premiers testeurs d'AyudART !</a></button>
+                <h1 class="lang" key="construction-title">Page en construction</h1>
+                <p class="lang" key="construction-description-1">AyudART est présentement en développement.</p>
+                <p class="lang" key="construction-description-2">Si vous souhaitez être parmi les premiers à essayer AyudART en avant-première, remplissez le formulaire dans le lien suivant !</p>
+                <button class="cta__button"><a href="https://forms.gle/9cWS9zzdGqhwvX4j7" target="_blank" class="lang" key="construction-cta">Soyez parmi les premiers testeurs d'AyudART !</a></button>
             </div> 
         </div>
     </div>
 
-   <div class="footer__container">
-    <div class="footer__links">
-        <div class="footer__link__wrapper">
-            <div class="footer__link__items">
-                <h2>Explorez</h2>
-                <a href="index.html#home">Accueil</a>
-                <a href="index.html#about">À propos</a>
-                <a href="index.html#services">Services</a>
-                <a href="index.html#contact">Contact</a>
-                <a href="demo.html">Démo gratuite</a>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link__wrapper">
+                <div class="footer__link__items">
+                    <h2 class="lang" key="footer-title">Explorez</h2>
+                    <a href="index.html#home" class="lang" key="footer-home">Accueil</a>
+                    <a href="index.html#about" class="lang" key="footer-about">À propos</a>
+                    <a href="index.html#services" class="lang" key="footer-services">Services</a>
+                    <a href="index.html#contact" class="lang" key="footer-contact">Contact</a>
+                    <a href="demo.html" class="lang" key="footer-demo">Démo gratuite</a>
+                </div>
+            </div>
+        </div>
+         <!-- Social Media Links -->
+         <div class="media">
+            <div class="media__wrapper">
+                <div class="footer__logo">
+                    <a href="index.html#home" id="footer__logo">© AyudART, 2023</a>
+                </div>
             </div>
         </div>
     </div>
-     <div class="social__media">
-        <div class="social__media__wrapper">
-            <div class="footer__logo">
-                <a href="index.html#home" id="footer__logo">© AyudART, 2023</a>
-            </div>
-        </div>
-    </div>
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src = "app.js"></script>
 </body>
 </html>
