@@ -174,7 +174,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 70vh;
+        height: 85vh;
         font-size: 1.6rem;
     }
 
@@ -203,7 +203,7 @@
 
     .translate__container {
         position: absolute;
-        top: 58vh;
+        top: 70vh;
         text-align: center;
         align-items: center;
         padding: 2rem;
