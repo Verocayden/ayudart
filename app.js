@@ -1,4 +1,5 @@
 // Multilanguage
+// Inspired by: Noushad Mohamed. (November 2018). Multi language page with Javascript or jquery. Stack Overflow. https://stackoverflow.com/questions/40430462/multi-language-page-with-javascript-or-jquery?noredirect=1&lq=1
 
 let arrLang = {
     fr: {
@@ -101,6 +102,8 @@ $(function() {
 })
 
 // Mobile Menu
+// Inspired by: Brian. (September 2020). HTML CSS and Javascript Website with Smooth Scroll. Codavilla. https://www.codavilla.com/posts/html-css-and-javascript-website-with-smooth-scroll
+
 const menu = document.querySelector('#mobile-menu');
 const navLogo = document.querySelector('#navbar__logo')
 const menuLinks = document.querySelector('.navbar__menu');
