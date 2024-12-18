@@ -1,164 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE2P5LN7J9"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZE2P5LN7J9"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-ZE2P5LN7J9');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZE2P5LN7J9");
     </script>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>AyudART</title>
-    
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity = "sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300;500;600;700&family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=KoHo:wght@300;500;600;700&family=Kumbh+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="index.html#home" id="navbar__logo">
-                AyudART
-            </a>
-            
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item"><a href="index.html#home" class="navbar__links lang" id="home-page" key="nav-home">Accueil</a></li>
-                <li class="navbar__item"><a href="index.html#about" class="navbar__links lang" id="about-page" key="nav-about">À propos</a></li>
-                <li class="navbar__item"><a href="index.html#services" class="navbar__links lang" id="services-page" key="nav-services">Services</a></li>
-                <li class="navbar__item"><a href="index.html#contact" class="navbar__links lang" id="contact-page" key="nav-contact">Contact</a></li>
-                <li class="navbar__btn">
-                    <a href="demo.html" class="button lang" key="nav-demo">Essai gratuit</a>
-                </li>
-                <!--
+      <div class="navbar__container">
+        <a href="index.html#home" id="navbar__logo"> AyudART </a>
+
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a
+              href="index.html#home"
+              class="navbar__links lang"
+              id="home-page"
+              key="nav-home"
+              >Accueil</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="index.html#about"
+              class="navbar__links lang"
+              id="about-page"
+              key="nav-about"
+              >À propos</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="index.html#services"
+              class="navbar__links lang"
+              id="services-page"
+              key="nav-services"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a
+              href="index.html#contact"
+              class="navbar__links lang"
+              id="contact-page"
+              key="nav-contact"
+              >Contact</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="demo.html" class="button lang" key="nav-demo"
+              >Essai gratuit</a
+            >
+          </li>
+          <!--
                     <div class="translate__container">
                         <button class="translate" id="en">EN</button>
                         <button class="translate" id="fr">FR</button>
                     </div>
                 -->
-            </ul>
-        </div>
+        </ul>
+      </div>
     </nav>
 
     <div class="hero" id="home">
-        <div class="main__container">
-            <div class="main__content">
-                <h1 class="lang" key="hero-title">L'IA au service des artistes</h1>
-                <h3 class="lang" key="hero-description">Un assistant à portée de main pour vos illustrations !</h3>
-                <div class="cta__buttons__container">
-                    <button class="cta__button"><a href="demo.html" class="lang" key="hero-button">Essayez gratuitement !</a></button>
-                </div>
-            </div>
-            <div class="main__picture">
-            </div> 
+      <div class="main__container">
+        <div class="main__content">
+          <h1 class="lang" key="hero-title">L'IA au service des artistes</h1>
+          <h3 class="lang" key="hero-description">
+            Un assistant à portée de main pour vos illustrations!
+          </h3>
+          <div class="cta__buttons__container">
+            <button class="cta__button">
+              <a href="demo.html" class="lang" key="hero-button"
+                >Essayez gratuitement!</a
+              >
+            </button>
+          </div>
         </div>
+        <div class="main__picture"></div>
+      </div>
     </div>
 
     <!-- About Section -->
     <div class="about" id="about">
-        <div class="main__container">
-            <div class="main__picture">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ELV6YbT28gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="main__content">
-                <h1 class="lang" key="about-title">À propos</h1>
-                <p class="lang" key="about-description-1">AyudART est un assistant intelligent pour vous aider à réaliser vos illustrations efficacement.
-                    En utilisant l'IA, AyudART diminue significativement le temps consacré aux tâches répétitives en dessin.</p>
-                <p class="lang" key="about-description-2">Grâce à AyudART, vous pouvez enfin vous concentrer sur les aspects les plus créatifs du dessin, de la bande dessinée, des mangas, des webcomics et de l'animation 2D !</p>
-            </div>
+      <div class="main__container">
+        <div class="main__picture">
+          <iframe
+            width="420"
+            height="236.25"
+            src="https://www.youtube.com/embed/ELV6YbT28gs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
+        <div class="main__content">
+          <h1 class="lang" key="about-title">À propos</h1>
+          <p class="lang" key="about-description-1">
+            AyudART est un assistant intelligent pour vous aider à réaliser vos
+            illustrations efficacement. En utilisant l'IA, AyudART diminue
+            significativement le temps consacré aux tâches répétitives en
+            dessin.
+          </p>
+          <p class="lang" key="about-description-2">
+            Grâce à AyudART, vous pouvez enfin vous concentrer sur les aspects
+            les plus créatifs du dessin, de la bande dessinée, des mangas, des
+            webcomics et de l'animation 2D!
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="services" id="services">
-        <div class="main__container">
-            <div class="main__content">
-                <h1 class="lang" key="services-title">L'encrage en un clic !</h1>
-                <p class="lang" key="services-description-1">Il suffit de fournir votre croquis pour qu'AyudART encre votre dessin à la vitesse de l'éclair. AyudART sauve ainsi des heures de travail répétitif !</p>
-                <p class="lang" key="services-description-2">Dans les prochains développements, AyudART pourra même proposer différents types d'encrage, spécialement adaptés au style de chaque artiste !</p>
-            </div>
-            <div class="main__picture">
-                <img src="images/mockup_encrage.png" alt="illustration" class="main__section__image">
-            </div>
+      <div class="main__container">
+        <div class="main__content">
+          <h1 class="lang" key="services-title">L'encrage en un clic!</h1>
+          <p class="lang" key="services-description-1">
+            Il suffit de fournir votre croquis pour qu'AyudART encre votre
+            dessin à la vitesse de l'éclair. AyudART sauve ainsi des heures de
+            travail répétitif!
+          </p>
+          <p class="lang" key="services-description-2">
+            Dans les prochains développements, AyudART pourra même proposer
+            différents types d'encrage, spécialement adaptés au style de chaque
+            artiste!
+          </p>
         </div>
+        <div class="main__picture">
+          <img
+            src="images/mockup_encrage.png"
+            alt="illustration"
+            class="main__section__image"
+          />
+        </div>
+      </div>
     </div>
 
     <div class="value-prop" id="value-prop">
-        <h1 class="lang" key="value-prop-title">Ce qui distingue AyudART</h1>
-        <div class="value-prop__wrapper">
-            <div class="value-prop__card">
-                <img src="images/icone_productivite.svg" alt="illustration" class="value-prop__image">
-                <p class="lang" key="value-prop-1">Un outil personnalisé qui facilite les tâches rébarbatives du dessin</p>
-            </div>
-            <div class="value-prop__card">
-                <img src="images/icone_creativite.svg" alt="illustration" class="value-prop__image">
-                <p class="lang" key="value-prop-2">Une IA qui respecte intégralement votre créativité</p>
-            </div>
-            <div class="value-prop__card">
-                <img src="images/icone_accessibilite.svg" alt="illustration" class="value-prop__image">
-                <p class="lang" key="value-prop-2">Une solution facilement accessible et adaptée à tous les budgets</p>
-            </div>
+      <h1 class="lang" key="value-prop-title">Ce qui distingue AyudART</h1>
+      <div class="value-prop__wrapper">
+        <div class="value-prop__card">
+          <img
+            src="images/icone_productivite.svg"
+            alt="illustration"
+            class="value-prop__image"
+          />
+          <p class="lang" key="value-prop-1">
+            Un outil personnalisé qui facilite les tâches rébarbatives du dessin
+          </p>
         </div>
+        <div class="value-prop__card">
+          <img
+            src="images/icone_creativite.svg"
+            alt="illustration"
+            class="value-prop__image"
+          />
+          <p class="lang" key="value-prop-2">
+            Une IA qui respecte intégralement votre créativité
+          </p>
+        </div>
+        <div class="value-prop__card">
+          <img
+            src="images/icone_accessibilite.svg"
+            alt="illustration"
+            class="value-prop__image"
+          />
+          <p class="lang" key="value-prop-2">
+            Une solution facilement accessible et adaptée à tous les budgets
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="contact" id="contact">
-        <div class="main__container">
-            <div class="main__content">
-                <h1 class="lang" key="contact-title">Contact</h1>
-                <p class="lang" key="contact-description-1">Je m'appelle Victoria-Mae Carrière. J'étudie en génie logiciel à Polytechnique Montréal et je suis artiste en illustration numérique.</p>
-                <p class="lang" key="contact-description-2">Aider des milliers d'artistes à s'accomplir à leur plein potentiel vous intéresse ? Vous voulez rejoindre l'équipe ? Je vous invite à me contacter ! </p>
-                <a href="https://www.linkedin.com/in/victoria-mae-carri%C3%A8re/" target="_blank"><p class="lang" key="contact-link">Retrouvez-moi sur LinkedIn !</p></a>
-            </div>
-            <div class="main__picture">
-                <img src="images/avatar.png" alt="avatar" class="main__section__image">
-            </div>
+      <div class="main__container">
+        <div class="main__content">
+          <h1 class="lang" key="contact-title">Contact</h1>
+          <p class="lang" key="contact-description-1">
+            Je m'appelle Victoria-Mae Carrière. J'étudie en génie logiciel à
+            Polytechnique Montréal et je suis artiste en illustration numérique.
+          </p>
+          <p class="lang" key="contact-description-2">
+            Aider des milliers d'artistes à s'accomplir à leur plein potentiel
+            vous intéresse ? Vous voulez rejoindre l'équipe ? Je vous invite à
+            me contacter!
+          </p>
+          <a
+            href="https://www.linkedin.com/in/victoria-mae-carri%C3%A8re/"
+            target="_blank"
+            ><p class="lang" key="contact-link">
+              Retrouvez-moi sur LinkedIn!
+            </p></a
+          >
         </div>
+        <div class="main__picture">
+          <img
+            src="images/avatar.png"
+            alt="avatar"
+            class="main__section__image"
+          />
+        </div>
+      </div>
     </div>
 
-    <div class="cta" id = "cta">
-        <h1 class="lang" key="cta-title">Bye bye répétitivité ! Bonjour créativité !</h1>
-        <p class="lang" key="cta-description">Explorez gratuitement les possibilités offertes par AyudART !</p>
-        <button class="cta__button"><a href="demo.html" class="lang" key="cta-button">Essayez la démo !</a></button>
+    <div class="cta" id="cta">
+      <h1 class="lang" key="cta-title">
+        Bye bye répétitivité! Bonjour créativité!
+      </h1>
+      <p class="lang" key="cta-description">
+        Explorez gratuitement les possibilités offertes par AyudART!
+      </p>
+      <button class="cta__button">
+        <a href="demo.html" class="lang" key="cta-button">Essayez la démo!</a>
+      </button>
     </div>
 
     <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link__wrapper">
-                <div class="footer__link__items">
-                    <h2 class="lang" key="footer-title">Explorez</h2>
-                    <a href="index.html#home" class="lang" key="footer-home">Accueil</a>
-                    <a href="index.html#about" class="lang" key="footer-about">À propos</a>
-                    <a href="index.html#services" class="lang" key="footer-services">Services</a>
-                    <a href="index.html#contact" class="lang" key="footer-contact">Contact</a>
-                    <a href="demo.html" class="lang" key="footer-demo">Démo gratuite</a>
-                </div>
-            </div>
+      <div class="footer__links">
+        <div class="footer__link__wrapper">
+          <div class="footer__link__items">
+            <h2 class="lang" key="footer-title">Explorez</h2>
+            <a href="index.html#home" class="lang" key="footer-home">Accueil</a>
+            <a href="index.html#about" class="lang" key="footer-about"
+              >À propos</a
+            >
+            <a href="index.html#services" class="lang" key="footer-services"
+              >Services</a
+            >
+            <a href="index.html#contact" class="lang" key="footer-contact"
+              >Contact</a
+            >
+            <a href="demo.html" class="lang" key="footer-demo">Démo gratuite</a>
+          </div>
         </div>
-         <!-- Social Media Links -->
-         <div class="media">
-            <div class="media__wrapper">
-                <div class="footer__logo">
-                    <a href="index.html#home" id="footer__logo">© AyudART, 2023</a>
-                </div>
-            </div>
+      </div>
+      <!-- Social Media Links -->
+      <div class="media">
+        <div class="media__wrapper">
+          <div class="footer__logo">
+            <a href="index.html#home" id="footer__logo">© AyudART, 2023</a>
+          </div>
         </div>
+      </div>
     </div>
-    <script src = "app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
